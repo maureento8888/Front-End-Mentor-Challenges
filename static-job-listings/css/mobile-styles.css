@@ -1,0 +1,71 @@
+/* Mobile styling - Table of contents
+
+1. global styles
+2. navigation
+3. content styles
+   a. card
+*/
+
+/* 1. Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 375px;
+}
+
+/* 2. Navigation */
+.mobile-nav {
+  background: rgb(79, 148, 150);
+  max-height: 156px;
+  opacity: 80%;
+}
+
+/* 3. Content */
+.holder,
+.attribution {
+  background: rgb(229, 254, 255);
+  padding: 1em;
+}
+
+.holder {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.attribution-links {
+  text-decoration: none;
+  color: black;
+}
+
+.attribution-links:hover {
+  color: rgb(0, 110, 255);
+}
+
+/* 3a. Card */
+.card {
+  padding: 20px;
+  margin-bottom: 24px;
+  height: 200px;
+  width: 180px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+}
+
+.card:hover {
+  transform: scale(1.005);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* brand circles */
+
+/* @media screen and (max-width: 375px) {
+} */

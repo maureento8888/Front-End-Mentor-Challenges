@@ -1,0 +1,161 @@
+/*
+Table of Contents
+
+1. Global styling
+    Primary
+	Accent
+	Neutral
+    Typography
+2. Content styling
+	Privacy & Terms Agreement
+    Attribution
+3. Media Queries (Desktop)
+
+*/
+
+/* ============
+   1. Global Styling
+   ============ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+:root {
+	/* Primary */
+	--red: hsl(0, 100%, 74%);
+	--green: hsl(154, 59%, 51%);
+
+	/* Accent */
+	--blue: hsl(248, 32%, 49%);
+
+	/* Neutral */
+	--grayish-blue: hsl(246, 25%, 77%);
+
+	/* Typography */
+	--medium-wgt: 600;
+}
+
+body {
+	font-family: "Poppins", Avenir;
+}
+
+/* ============
+   2. Content Styling
+   ============ */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.5em;
+	background: var(--red);
+}
+
+.info-content {
+	padding: 1.5em;
+	margin: 0 auto;
+	width: 100%;
+}
+
+h2,
+.summary-paragraph {
+	color: white;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.price-cta {
+	padding: 1.5em 1.2em;
+	text-align: center;
+	background: var(--blue);
+	border-radius: 9px;
+	color: white;
+	margin: 1.5em 0;
+}
+
+span {
+	font-weight: var(--medium-wgt);
+}
+
+form {
+	padding: 1.4em;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	border-radius: 9px;
+}
+
+label {
+	font-size: 0.9rem;
+}
+
+input {
+	padding: 0.95em 1em;
+	margin-bottom: 1.9em;
+	width: 95%;
+}
+
+/* Privacy & Terms Agreement */
+aside {
+	padding-top: 2em;
+	font-size: 0.9rem;
+	text-align: center;
+	color: var(--grayish-blue);
+}
+
+aside span {
+	color: var(--red)
+}
+
+button {
+	padding: 1.3em;
+	border-radius: 5px;
+	background-color: var(--green);
+	border: none;
+	font-size: 1rem;
+	font-weight: var(--medium-wgt);
+	text-transform: uppercase;
+	color: white;
+}
+
+/* Attribution */
+.attribution {
+	padding: 2em 0 2em 0;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* ============
+   3. Media Queries (Desktop)
+   ============ */
+
+@media screen and (min-width: 640px) {
+	.container {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.info-header {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		width: 70%;
+		padding: 3em;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+
+	form {
+		padding: 2em;
+	}
+}

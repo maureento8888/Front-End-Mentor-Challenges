@@ -12,5 +12,5 @@ The default README.md for each project can be viewed in their respective reposit
 - [Four Card Feature Section](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/README.md)
 ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/my-solution.PNG)
 
-- [Intro Component Signup Form] (https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/README.md)
+- [Intro Component Signup Form](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/README.md)
 ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/my-solution.PNG)

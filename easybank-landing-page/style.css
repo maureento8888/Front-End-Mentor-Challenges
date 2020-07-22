@@ -1,0 +1,209 @@
+/*
+Table of Contents
+
+1. Global Styling
+   Primary
+   Neutral
+   Typography
+2. Content Styling
+	Nav Burger
+	Nav Modal
+	Background Assets
+	Attribution
+*/
+
+/* ============
+   1. Global Styling
+   ============ */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+:root {
+	/* Primary */
+	--dark-blue: hsl(233, 26%, 24%);
+	--lime-green: hsl(136, 65%, 51%);
+	--bright-cyan: hsl(192, 70%, 51%);
+
+	/* Neutral */
+	--white: hsl(0, 0%, 100%);
+	--gray-light: hsl(0, 0%, 98%);
+	--grayish-blue: hsl(235, 5%, 55%);
+
+	/* Typography */
+	--light-bold: 300;
+	--medium-bold: 400;
+}
+
+body {
+	font-family: "Public Sans";
+}
+
+.alignment {
+	padding: 1% 7%;
+}
+
+.alignment + .alignment {
+	padding: 7% 7%;
+}
+
+.container {
+	background: var(--gray-light);
+}
+/* ============
+   2. Content Styling
+   ============ */
+
+/* Order of Images:
+	2. (BACKGROUND) bg-intro-desktop.svg
+	3. (BACKGROUND) /assets/images/image-mockups.png
+	4. (CONTENT-1) icons
+	5. (CONTENT-2) /assets/images
+*/
+
+/* Navigation */
+header {
+	background: var(--white);
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	height: 18px;
+	width: auto;
+}
+
+nav {
+	flex: 2;
+	max-width: 40%;
+	margin: 0 auto;
+	color: var(--grayish-blue);
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-links li:hover {
+	color: black;
+}
+
+/* CTA Buttons */
+.request {
+	padding: 0.75em 2em 0.75em 2em;
+	border: none;
+	border-radius: 100px;
+	background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+	color: var(--white);
+	font-size: 0.85rem;
+}
+
+.request:hover {
+	background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%))
+}
+
+/* Nav Burger (hidden in Desktop) */
+.nav-burger {
+	opacity: 0;
+}
+
+.nav-burger-close {
+	opacity: 0;
+}
+
+/* Nav Modal (hidden in Desktop) */
+.nav-modal {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav-modal-links {
+	list-style: none;
+	color: var(--dark-blue);
+}
+
+/* Background Assets */
+.bg-decor {
+	position: absolute;
+	height: auto;
+	width: 50%;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+/* Footer */
+footer {
+	height: 20%;
+	background: var(--dark-blue);
+	color: var(--white);
+}
+
+/*  Attribution */
+.attribution {
+	padding: 2em 0 2em 0;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* ============
+   3. Media Queries (Mobile)
+   ============ */
+
+/* @media {} */
+
+/* Adjust button inner text wrapping issue */
+@media (max-width: 900px) {
+	nav,
+	header .request {
+		opacity: 0;
+	}
+
+	.nav-burger {
+		opacity: 1;
+		height: auto;
+		width: 35px;
+		cursor: pointer;
+	}
+
+	.nav-modal {
+		top: 3.7em;
+		left: 0;
+		right: -170px;
+		margin: 0 8em 0 8em;
+		opacity: 1;
+		background-color: var(--white);
+		border-radius: 10px;
+		/* box-shadow: 20px 100px hsl(235, 22%, 19%); */
+		transform: translateY(0%);
+		transition: transform 0.4s ease-in-out;
+	}
+
+	.nav-modal-links li {
+		padding: 1.5em 0;
+		text-align: center;
+		color: var(--grayish-blue);
+	}
+
+	.nav-modal-links li:hover {
+		color: var(--dark-blue);
+	}
+
+	.modal-active {
+		transform: translateX(190%);
+	}
+}

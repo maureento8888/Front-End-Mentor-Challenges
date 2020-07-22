@@ -97,12 +97,11 @@ body {
   .card-2,
   .card-3,
   .card-4 {
-    max-width: 100%;
     background-color: white;
     border-radius: 5px;
     background: #fff;
     box-shadow: 6px 6px 28px #ebebeb, -6px -6px 28px #fff;
-    padding: 0 1.5em;
+    padding: 2em 1em;
   }
 
   .card-1 p,

@@ -12,10 +12,10 @@ The default README.md for each project can be viewed in their respective reposit
 
 NOTE: I have not included mobile viewports here but a quick download of a project's html file should make it easily viewable on a browser at all viewports! I will work on including mobile viewport results (PNGs) that do not cut off halfway in a screenshot! ☝🏼
 
-- [Four Card Feature Section](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/README.md)
-  ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/my-solution.png)
-
-- [Intro Component Signup Form](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/README.md)
+- [Four Card Feature Section](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/README.md)
   ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/my-solution.PNG)
+
+- [Intro Component Signup Form](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/README.md)
+  ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/intro-component-with-signup-form/my-solution.png)
 
 MORE coming soon! 🤓

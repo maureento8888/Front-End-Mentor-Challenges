@@ -16,120 +16,129 @@ Table of Contents
 /* ============
    1. Global Styling
    ============ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 :root {
-	/* Primary */
-	--red: hsl(0, 100%, 74%);
-	--green: hsl(154, 59%, 51%);
+  /* Primary */
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
 
-	/* Accent */
-	--blue: hsl(248, 32%, 49%);
+  /* Accent */
+  --blue: hsl(248, 32%, 49%);
 
-	/* Neutral */
-	--grayish-blue: hsl(246, 25%, 77%);
+  /* Neutral */
+  --grayish-blue: hsl(246, 25%, 77%);
 
-	/* Typography */
-	--medium-wgt: 600;
+  /* Typography */
+  --medium-wgt: 600;
 }
 
 body {
-	font-family: "Poppins", Avenir;
+  font-family: "Poppins", Avenir;
 }
 
 /* ============
    2. Content Styling
    ============ */
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 1.5em;
-	background: var(--red);
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+
+  background: var(--red);
+  background-image: url("images/bg-intro-desktop.png");
 }
 
 .info-content {
-	padding: 1.5em;
-	margin: 0 auto;
-	width: 100%;
+  margin: 0 auto;
+  padding: 1.5em;
+  width: 100%;
 }
 
 h2,
 .summary-paragraph {
-	color: white;
-	text-align: center;
-	padding-top: 1em;
+  padding-top: 1em;
+
+  color: white;
+  text-align: center;
 }
 
 .price-cta {
-	padding: 1.5em 1.2em;
-	text-align: center;
-	background: var(--blue);
-	border-radius: 9px;
-	color: white;
-	margin: 1.5em 0;
+  margin: 1.5em 0;
+  padding: 1.5em 1.2em;
+
+  background: var(--blue);
+  border-radius: 9px;
+  color: white;
+  text-align: center;
 }
 
 span {
-	font-weight: var(--medium-wgt);
+  font-weight: var(--medium-wgt);
 }
 
 form {
-	padding: 1.4em;
-	display: flex;
-	flex-direction: column;
-	background: white;
-	border-radius: 9px;
+  display: flex;
+  padding: 1.4em;
+  flex-direction: column;
+
+  background: white;
+  border-radius: 9px;
 }
 
 label {
-	font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 input {
-	padding: 0.95em 1em;
-	margin-bottom: 1.9em;
+  margin-bottom: 1.9em;
+  padding: 0.95em 1em;
 }
 
 /* Privacy & Terms Agreement */
 aside {
-	padding-top: 2em;
-	font-size: 0.9rem;
-	text-align: center;
-	color: var(--grayish-blue);
+  padding-top: 2em;
+
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--grayish-blue);
 }
 
 aside span {
-	color: var(--red)
+  color: var(--red);
 }
 
 button {
-	padding: 1.3em;
-	border-radius: 5px;
-	background-color: var(--green);
-	border: none;
-	font-size: 1rem;
-	font-weight: var(--medium-wgt);
-	text-transform: uppercase;
-	color: white;
+  padding: 1.3em;
+
+  background-color: var(--green);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: var(--medium-wgt);
+  text-transform: uppercase;
 }
 
 /* Attribution */
 .attribution {
-	padding: 2em 0 2em 0;
-	font-size: 0.8rem;
-	text-align: center;
+  padding: 2em 0;
+
+  font-size: 0.8rem;
+  text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 /* ============
@@ -137,24 +146,24 @@ button {
    ============ */
 
 @media screen and (min-width: 640px) {
-	.container {
-		display: flex;
-		flex-direction: row;
-	}
-	
-	.info-header {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		width: 70%;
-		padding: 3em;
-	}
-	
-	h2 {
-		text-align: center;
-	}
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
 
-	form {
-		padding: 2em;
-	}
+  .info-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 70%;
+    padding: 3em;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  form {
+    padding: 2em;
+  }
 }

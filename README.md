@@ -2,9 +2,9 @@
 
 ### List of my solutions to [frontendmentor.io](https://www.frontendmentor.io) challenges.
 
-Frontend Mentor is an online platform that encourages you to solve **real-world front-end challenges** your own way, giving you a design preview to code up to, and submitting it to other users for review if you like. I love this platform and use it to improve my **front-end development skills**, utlizing **HTML**, **CSS**, **JS (ES6+)**, and **my favourite front-end framework, Vue.js** (only in exclusive projects).
+Frontend Mentor is an online platform that encourages you to solve **real-world front-end challenges** your own way, giving you a design preview to code up to, and submitting it to other users for review if you like. I love this platform and use it to improve my **front-end development skills**, utlizing **HTML**, **CSS**, **JS (ES6+)**, and **my favourite front-end framework, Vue.js** (only certain projects).
 
-The default [overviews](#overview) for each project can be viewed in their respective repositories.
+The default [project overviews](#project-overview) for each project can be viewed in their respective repositories.
 
 ---
 
@@ -19,4 +19,8 @@ The default [overviews](#overview) for each project can be viewed in their respe
 - [Easybank Landing Page](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/easybank-landing-page/README.md)
   ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/e44653676f7bf3731288b8976b9cb47fffb904c6/easybank-landing-page/my-solution.png)
 
-(✍🏼 completed projects to be appended)
+- ✍🏼 Completed projects to be appended
+
+## Credits
+
+- Each projects' README is based on [frontendmentor.io](https://www.frontendmentor.io/) founder, [@mattstuddert](https://github.com/mattstuddert)'s [readme-template repository](https://github.com/mattstuddert/readme-template.git)

@@ -33,6 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
+- ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/10079bb4230d10f2601d06b52604516199c459fd/intro-component-with-signup-form/my-solution.PNG)
+
 ### Links
 
 ## My process

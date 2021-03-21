@@ -29,6 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
+- ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/four-card-feature-section/my-solution.PNG)
+
 ### Links
 
 ## My process

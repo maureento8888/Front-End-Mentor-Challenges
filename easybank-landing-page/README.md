@@ -30,6 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
+- [](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/e44653676f7bf3731288b8976b9cb47fffb904c6/easybank-landing-page/my-solution.png)
+
 ### Links
 
 ## My process

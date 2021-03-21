@@ -15,6 +15,6 @@ The default README.md for each project can be viewed in their respective reposit
   ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/10079bb4230d10f2601d06b52604516199c459fd/intro-component-with-signup-form/my-solution.PNG)
 
 - [Easybank Landing Page](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/master/easybank-landing-page/README.md)
-  ![]()
+  ![](https://github.com/maureento8888/Frontend-Mentor-Challenges/blob/e44653676f7bf3731288b8976b9cb47fffb904c6/easybank-landing-page/my-solution.png)
 
 MORE coming soon! 🤓

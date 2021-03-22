@@ -1,9 +1,9 @@
 ## Todo List
 
 - bookmark-landing-page:
-- easybank-landing-page: Fix hero-bg-img
-- four-card-feature-section: DONE
-- intro-component-with-signup-form: Error states
+- easybank-landing-page: Fix hero-bg-img, Update README
+- four-card-feature-section: Update README
+- intro-component-with-signup-form: Error states, Update README
 - manage-landing-page:
 - minimalist-portfolio-website:
 - pricing-component-with-toggle:

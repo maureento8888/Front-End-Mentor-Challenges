@@ -6,8 +6,6 @@
 - intro-component-with-signup-form: Error states, Update README
 - job-listings-with-filtering:
 - manage-landing-page:
-- minimalist-portfolio-website:
-- pricing-component-with-toggle:
 - room-homepage:
 - social-media-dashboard-w-theme-switcher
 - url-shortening-api:
